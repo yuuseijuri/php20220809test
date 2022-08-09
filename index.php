@@ -1,8 +1,8 @@
 <table border = '1'>
   <?php
-  for ($a = 1; $a <= 9; $a++) {
+  for ($a = 1; $a <= 10; $a++) {
     echo '<tr>';
-    for ($b = 1; $b <= 9; $b++) {
+    for ($b = 1; $b <= 10; $b++) {
       echo '<td>'. $a * $b. '</td>';
     }
     echo '</tr>';
